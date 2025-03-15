@@ -23,7 +23,7 @@ body {
 .sector-container{
   display: flex;
   width: 100%;
-  background-color: var(--secondary-color);
+  background-color: white;
 }
 
 #logo-container {
@@ -104,4 +104,28 @@ nav ul li a:hover {
 i{
     color: black;
     font-size: 3em;
+}
+
+/* About us */
+
+.about-us-context{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-section{
+    
+}
+
+.about-us-section-text {
+    display: flex;
+    width: 60%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
 }
