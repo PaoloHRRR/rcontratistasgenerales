@@ -1,3 +1,5 @@
+/* Global Styles */
+
 :root {
   --primary-color: #0b76a6;
   --secondary-color: #626a74;
@@ -9,6 +11,8 @@ body {
   padding: 0;
   background-color: #f8f9fa;
 }
+
+/* Header Styles */
 
 .sector-container{
   display: flex;
@@ -63,3 +67,6 @@ nav ul li a:hover {
 	background: #a9b8c9;
     transition: 1s;
 }
+
+
+
