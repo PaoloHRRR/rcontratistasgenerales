@@ -100,3 +100,8 @@ nav ul li a:hover {
     justify-content: space-between;
     padding: 20px;
 }
+
+i{
+    color: black;
+    font-size: 4em;
+}
