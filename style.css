@@ -1,4 +1,10 @@
 /* Global Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 
 :root {
   --primary-color: #0b76a6;
@@ -68,5 +74,29 @@ nav ul li a:hover {
     transition: 1s;
 }
 
+/* Carousel Styles */
 
+#carousel-section{
+    height: 100vh;
+    overflow: hidden;
+}
 
+.carousel-container {
+    position: relative;
+    height: 100%;
+}
+
+.carousel-photo-container{
+    height: 100%;
+}
+
+.arrows-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
